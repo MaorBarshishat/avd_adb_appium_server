@@ -1,4 +1,4 @@
-# Android Virtual Device - Android Debugger Brigge - Appium Server 
+    # Android Virtual Device - Android Debugger Brigge - Appium Server 
 
 This program has 2 main parts that working combined - android virtual device (avd), and appium server, they connected in a way that called "android debugger bridge" (adb).
 
@@ -26,4 +26,4 @@ In a future release I will build a docker with all the following requirements bu
 3. **Install the Application:** Once downloaded, swipe down from the top of the screen and tap on the download notification to install the application.
 4. **Log In:** Open the Telegram app and log in with a real user account (e.g. yours).
 5. **Prepare for Testing:** We need to have a jpeg and a non-jpeg files on the device to apply the testing. For this, exit the application and navigate to the camera. Take **one photo** and **one video**.
-6. **Interact with the Bot:** In order to have clean tests it is required to initially accept terms and some access grants. Return to Telegram, search for `@maor_practice_bot` (it is the bot account), enter the chat, say "hello," and send the photo to the bot (accept any terms as needed).
+6. **Interact with the Bot:** In order to have clean tests it is required to initially accept terms and some access grants. Return to Telegram, search for `@maor_practice_bot` (it is the bot account), enter the chat, say "hello," and send the photo to the bot (accept any terms as needed). After sending the photo to the bot you will receive a hash value, please copy the value which will later be provided to the client.
