@@ -14,7 +14,7 @@ Here I am focusing on docker installation.
 ### as a docker:
 ```
    sudo docker network create --subnet=172.18.0.0/16 net_maor
-   sudo docker run --privileged -d -p 6080:6080 -p 5554:5554 -p 5555:5555 -p 4723:4723 -e DEVICE="Samsung Galaxy S6" -e APPIUM=True --net net_maoe --ip 172.18.0.2 --name android-container-maor maorbarshishat/appium_android_maor:3.0
+   sudo docker run --privileged -d -p 6080:6080 -p 5554:5554 -p 5555:5555 -p 4723:4723 -e DEVICE="Samsung Galaxy S6" -e APPIUM=True --net net_maor --ip 172.18.0.2 --name android-container-maor maorbarshishat/appium_android_maor:3.0
 ```
 note: if net_maor was already created, an error message will appear, so plz ignore it.
 
